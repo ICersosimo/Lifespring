@@ -1,0 +1,58 @@
+.containerBg {
+    display: flex;
+    width: 100%;
+    height: 80em;
+    background-image: url('https://www.decisores.com/wp-content/uploads/2022/11/medico-1536x864.jpg');
+    object-fit: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.newScheduleButton {
+    background-color: #02098c;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 58px;
+    width: 107px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  
+  .aboutUsButton {
+    background-color: #02098c;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 58px;
+    width: 107px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    /* width: 100%; */
+    /* margin: 20px 0 10px 0;
+    gap: 20px; */
+  }
+  
+  .newScheduleButton:hover {
+    background-color: #f2f7f6;
+    color: #02098c;
+    transition: background-color 0.3s;
+  }
+  
+  .aboutUsButton:hover {
+    background-color: #f2f7f6;
+    color: #02098c;
+    transition: background-color 0.3s;
+  }
+ 
+
